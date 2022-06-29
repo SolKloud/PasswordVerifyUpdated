@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿using System;
 namespace PasswordVerifyUpdated
 {
     public class Password
@@ -20,7 +19,7 @@ namespace PasswordVerifyUpdated
                 {
                     throw new Exception("The password cannot be null");
                 }
-                //TO CHECK PASSWORD CONTAINS DIGIT
+                //TO CHECK PASSWORD CONTAINS A DIGIT
 
                 else if (!password.Any(char.IsDigit))
                 {
